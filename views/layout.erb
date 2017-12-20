@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="http://honokak.osaka/assets/img/sample.png">
+  <title>Inspect FM - Show FileMaker's Layouts & Fields</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.ico"/>
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/honoka.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <header>
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="/" class="navbar-brand">Inspect FM</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav">
+              <li><a href="/">Top</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inspect <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="/start">Start</a></li>
+                  <li><a href="">Under Construction</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <%= yield %>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center copyright">
+            <hr><br>
+            Developed by Osamu Takiya
+            <br>
+            Powered by <a href="http://www.sinatrarb.com/" target="_blank">Sinatra</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <br>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.bundle
+Capfile
+config/deploy/
+config/deploy.rb
+lib/
+log/
+unicorn.log
+vendor/

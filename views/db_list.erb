@@ -1,0 +1,23 @@
+<section class="section section-default point">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 id="buttons">₍ (ง ˙ω˙)ว ⁾⁾ please select Database name ₍ (ง ˙ω˙)ว ⁾⁾</h3>
+        <hr>
+        <div class="bs-component">
+          <div class="list-group">
+            <% @db_names.each do |db_name| %>
+              <div class="list-group-item">
+                <h4 class="list-group-item-heading">
+                  <%= %Q(<a href="/#{db_name}">) %>
+                    <%= db_name %>
+                  </a>
+                </h4>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
