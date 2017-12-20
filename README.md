@@ -1,5 +1,5 @@
 # Inspect FM
-- show the list s below i `FileMaker Server`
+- show the below list in `FileMaker Server`
     - Database Name
     - Layout Name in Database
     - Field Name in Layout
@@ -22,7 +22,7 @@ $ bundle exec unicorn -c unicorn.conf -p 4567 -D
 ```
 
 # Access
-- access to `http://localhost:4567`
+- access to `http://localhost:4567` and you can use this app!
 
 # Gem
 - [mech/filemaker-ruby](https://github.com/mech/filemaker-ruby)
@@ -38,7 +38,7 @@ $ bundle exec unicorn -c unicorn.conf -p 4567 -D
     - use 'back quote' for cat command
 
 ```bash
-$ kill -QUIT `cat /tmp/unicorn.inspect-fm.pid'
+$ kill -QUIT `cat /tmp/unicorn.inspect-fm.pid`
 ```
 
 # LICENSE
