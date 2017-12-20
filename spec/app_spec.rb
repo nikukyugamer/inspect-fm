@@ -8,31 +8,31 @@ describe 'Sinatra App' do
     @app ||= Sinatra::Application
   end
 
-  describe 'HTTPレスポンスヘッダのテスト' do
-    context '/ へ GET すると' do
+  describe 'HTTP Response Head test' do
+    context 'when GET to /' do
       before { get '/' }
-      it '200 OK が返ってくる' do
+      it 'HTTP Response is 200 OK' do
         expect(last_response.status).to eq 200
       end
     end
 
-    context '/start へ GET すると' do
+    context 'when GET to /start' do
       before { get '/start' }
-      it '200 OK が返ってくる' do
+      it 'HTTP Response is 200 OK' do
         expect(last_response.status).to eq 200
       end
     end
- 
-    context '/:db_name へ GET すると' do
+
+    context 'when GET to /:db_name' do
       # before { get '/:db_name' }
-      # it '200 OK が返ってくる' do
+      # it 'HTTP Response is 200 OK' do
         # expect(last_response.status).to eq 200
       # end
     end
- 
-    context '/:db_name/:layout_name へ GET すると' do
+
+    context 'when GET to /:db_name/:layout_name' do
       # before { get '/:db_name/:layout_name' }
-      # it '200 OK が返ってくる' do
+      # it 'HTTP Response is 200 OK' do
         # expect(last_response.status).to eq 200
       # end
     end
