@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/corselia/inspect-fm.svg?style=svg)](https://circleci.com/gh/corselia/inspect-fm)
+
 # Inspect FM
 - show the below list in `FileMaker Server`
     - Database Name
