@@ -17,10 +17,10 @@ describe 'Sinatra App' do
     end
 
     context 'when GET to /start' do
-      before { get '/start' }
-      it 'HTTP Response is 200 OK' do
-        expect(last_response.status).to eq 200
-      end
+      # before { get '/start' }
+      # it 'HTTP Response is 200 OK' do
+        # expect(last_response.status).to eq 200
+      # end
     end
 
     context 'when GET to /:db_name' do
