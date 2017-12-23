@@ -35,9 +35,9 @@ $ bundle exec unicorn -c unicorn.conf -p 4567 -D
 - [Capistrano](http://capistranorb.com/)
 
 # Note
-- the target names aren't shown when your account doesn't have the authentication
+- the target names of each element (Database, Layout and Field) aren't shown when your account doesn't have the authentication
 - how to stop unicorn
-    - use 'back quote' for cat command
+    - use **back quote** for cat command
 
 ```bash
 $ kill -QUIT `cat /tmp/unicorn.inspect-fm.pid`
