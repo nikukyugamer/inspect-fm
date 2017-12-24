@@ -31,6 +31,7 @@ $ bundle exec unicorn -c unicorn.conf -p 4567 -D
 
 # Powered by
 - [Sinatra](http://www.sinatrarb.com/)
+- [Unicorn](https://bogomips.org/unicorn/)
 - [Honoka](http://honokak.osaka/)
 - [Capistrano](http://capistranorb.com/)
 
