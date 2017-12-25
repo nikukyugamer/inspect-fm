@@ -7,7 +7,15 @@
     - Field Name in Layout
 
 # Screenshot
-![inspect_fm](inspect_fm.png "inspect_fm")
+![inspect_fm_01](inspect_fm_01.png "inspect_fm_01")
+
+![inspect_fm_02](inspect_fm_02.png "inspect_fm_02")
+
+![inspect_fm_03](inspect_fm_03.png "inspect_fm_03")
+
+![inspect_fm_04](inspect_fm_04.png "inspect_fm_04")
+
+![inspect_fm_05](inspect_fm_05.png "inspect_fm_05")
 
 # Prepare
 - set your FileMaker config in [`config/filemaker.yml`](/config/filemaker.yml)
